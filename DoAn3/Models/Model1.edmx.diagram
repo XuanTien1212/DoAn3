@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="695f12a374294a6dbbeb07c1f3d5c544" Name="Diagram1">
+        <EntityTypeShape EntityType="QLPhone1Model.Chitietddh" Width="1.5" PointX="10.75" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.ChitietGiohang" Width="1.5" PointX="5.25" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.Chitiethdn" Width="1.5" PointX="5.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.Danhmucsp" Width="1.5" PointX="0.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.Dienthoai" Width="1.5" PointX="3" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.Donhang" Width="1.5" PointX="8.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.Giaban" Width="1.5" PointX="5.25" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.Giohang" Width="1.5" PointX="5.25" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.Hoadonnhap" Width="1.5" PointX="8.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.Khachhang" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.LoaiTinTuc" Width="1.5" PointX="9" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.Ngdung" Width="1.5" PointX="6" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.NhaCungCap" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.sysdiagram" Width="1.5" PointX="10.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLPhone1Model.TinTuc" Width="1.5" PointX="11.25" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="QLPhone1Model.FK__ChitietGio__makh__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__ChitietGio__masp__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__Chitiethd__mahdn__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__Chitiethdn__masp__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__Dienthoai__madm__1B0907CE" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__Dienthoai__mancc__14270015" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__Giaban__masp__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK_Hoadonnhap_masp" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__Donhang__makh__20C1E124" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__Donhang__mand__21B6055D" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__Giohang__makh__29221CFB" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__Hoadonnha__mancc__24927208" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__Hoadonnhap__mand__25869641" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__TinTuc__mltt__0D7A0286" ManuallyRouted="false" />
+        <AssociationConnector Association="QLPhone1Model.FK__TinTuc__mand__0E6E26BF" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
